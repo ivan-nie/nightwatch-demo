@@ -1,0 +1,22 @@
+{
+  "name": "nightwatch-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.conf.js",
+  "scripts": {
+    "build": "echo 'Nothing to build'",
+    "test": "./node_modules/.bin/nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.31.0",
+    "geckodriver": "^1.8.1",
+    "ghostdriver": "^2.0.0",
+    "minimist": "^1.2.0",
+    "nightwatch": "^0.9.16",
+    "phantomjs-prebuilt": "^2.1.15",
+    "selenium-server": "^3.5.2",
+    "shelljs": "^0.7.8"
+  }
+}
